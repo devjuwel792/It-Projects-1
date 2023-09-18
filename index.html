@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bolder" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 ">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#"> <i
+                                class="fa-solid fa-right-to-bracket"></i>&#160;
+                            SignIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-right-from-bracket"></i> &#160;SignUp</a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end  -->
+
+
+    <!-- slider start  -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/slider-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider-3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- slider end  -->
+
+    <!-- product section start -->
+
+    <!-- filter-section start  -->
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-3 ">
+                <div class="search-area ">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="list-group pt-3">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                        ALL CATEGORY
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">Fresh Orange</button>
+                    <button type="button" class="list-group-item list-group-item-action">Fresh Vegetables</button>
+                    <button type="button" class="list-group-item list-group-item-action">Cool Drinks</button>
+                    <button type="button" class="list-group-item list-group-item-action">Fresh Fruits</button>
+
+                </div>
+                <div class="list-group py-3">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                        PRICE
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">100Tk-200Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">200Tk-300Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">300Tk-400Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">400Tk-500Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">500Tk-600Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">600Tk-700Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">700Tk-800Tk</button>
+                    <button type="button" class="list-group-item list-group-item-action">800Tk-900Tk</button>
+
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="grid-container ms-md-5">
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/Apple.png" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Apple</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/5a1ce8e14486f0.6771436715118440652807.png"
+                                    class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Grapes</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/banana.png" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Banana</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/cauliflower.png" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Cauliflower</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/Apple.png" class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Apple</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="card p-4 ">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/images/products/5a1ce8e14486f0.6771436715118440652807.png"
+                                    class="card-img-top" alt="...">
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title p-0">Grapes</h4>
+                                <div class="star py-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                </div>
+                                <strong class="price">
+                                    Price: ৳ 100 kg
+                                </strong><br>
+                                <del class="pt-2 d-block">
+                                    ৳ 110 kg
+                                </del><br>
+                                <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> Buy
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-center container pt-4">
+                    <nav aria-label="Page navigation example ">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item "><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- filter-section end -->
+
+
+    <!-- product section end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
