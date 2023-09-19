@@ -16,6 +16,10 @@
   --bs-navbar-active-color: rgb(255, 255, 255);
 }
 
+.navbar-toggler {
+  border: none !important;
+}
+
 /* navbar end  */
 
 /* .carousel  start */
@@ -34,7 +38,7 @@
   width: 15px !important;
   border-radius: 50%;
   background: red; */
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
 }
 /* .carousel end  */
 
@@ -52,11 +56,6 @@
 }
 
 .list-group {
-  /* --bs-list-group-color: var(--bs-body-color);
-  --bs-list-group-bg: var(--bs-body-bg);
-  --bs-list-group-border-color: var(--bs-border-color);
-  --bs-list-group-border-width: var(--bs-border-width); */
-
   --bs-list-group-action-color: var(--secondary);
   --bs-list-group-action-hover-color: #fff;
   --bs-list-group-action-hover-bg: var(--secondary);
@@ -102,10 +101,81 @@
 
 /* .pagination  */
 .pagination {
- 
   --bs-pagination-color: var(--primary);
-
+  --bs-pagination-hover-color: var(--primary);
   --bs-pagination-active-bg: var(--primary);
   --bs-pagination-active-border-color: var(--primary);
+}
 
+/* testimonials :start  */
+.ts-card {
+  border: 1px solid var(--primary);
+  margin: 0 5px;
+  padding: 30px 25px;
+}
+.ts-header {
+}
+.ts-card-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  overflow: hidden;
+  border: 1px solid var(--primary);
+}
+.ts-card-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.ts-body {
+  border-top: 1px solid lightgray;
+  margin-top: 30px;
+}
+.ts-body p {
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fa-quote-left {
+  font-size: 40px;
+  color: lightgray;
+}
+.fa-quote-right {
+  font-size: 40px;
+  color: lightgray;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: var(--primary);
+}
+
+ul.slick-dots {
+  margin-bottom: 38px;
+}
+
+.footer {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.manu-list {
+  padding: 0;
+  line-height: 30px;
+}
+.manu-list li {
+  list-style: none;
+  transition: 0.6s;
+}
+.manu-list li:hover {
+  padding-left: 7px;
+}
+.manu-list li a {
+  text-decoration: none;
+  color: #fff;
 }
