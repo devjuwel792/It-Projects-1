@@ -1,0 +1,19 @@
+/* navbar start  */
+
+.navbar {
+    background-color: var(--primary) !important;
+    --bs-navbar-color: rgb(255, 255, 255);
+    --bs-navbar-hover-color: #ffffff;
+  
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-nav-link-padding-x: 20px;
+    --bs-navbar-active-color: rgb(255, 255, 255);
+    --bs-navbar-toggler-focus-width: 0;
+  }
+  
+  .navbar-toggler {
+    border: none !important;
+  }
+  
+  /* navbar end  */
